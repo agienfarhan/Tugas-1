@@ -1,0 +1,51 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT drwood (kayu)+>
+<!ATTLIST drwood
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT kayu (nama,satuan,harga,jumlah,jenis,asal,pemesan,telepon,tanggal,
+                pembayaran)>
+<!ATTLIST kayu
+    xmlns CDATA #FIXED ''
+    kode NMTOKEN #REQUIRED>
+
+<!ELEMENT nama (#PCDATA)>
+<!ATTLIST nama
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT satuan (#PCDATA)>
+<!ATTLIST satuan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT harga (#PCDATA)>
+<!ATTLIST harga
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT jumlah (#PCDATA)>
+<!ATTLIST jumlah
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT jenis (#PCDATA)>
+<!ATTLIST jenis
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT asal (#PCDATA)>
+<!ATTLIST asal
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT pemesan (#PCDATA)>
+<!ATTLIST pemesan
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT telepon (#PCDATA)>
+<!ATTLIST telepon
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT tanggal (#PCDATA)>
+<!ATTLIST tanggal
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT pembayaran (#PCDATA)>
+<!ATTLIST pembayaran
+    xmlns CDATA #FIXED ''>
